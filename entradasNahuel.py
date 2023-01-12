@@ -5,8 +5,8 @@ import datetime
 import time
 import re
 
-TOKEN = "5649405085:AAEGtL1PMSbMhsn2HNbOLLRUq0tiGoZVgCs"
-chat_id = "360371488"
+TOKEN = "5649405085:AAEGtLxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+chat_id = "xxxxxxxxxxxxxxxxxxx"
 lector=open("control/entradas.txt", "r")
 today = time.strftime("%d:%m:%Y")
       
