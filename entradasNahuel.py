@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+# C. Nahuel Baglietto
+# www.baglietto.ar
 import json
 import requests
 import datetime
