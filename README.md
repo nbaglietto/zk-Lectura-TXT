@@ -14,7 +14,14 @@ Utilizando la libreria zklib se genera un TXT con los datos de las fichadas del 
 
 1077:11:01:2023:12:00:02:6666
 
-para generar este archivo se crea una tarea con crontab que ejecuta dicho scriptrado se realiza otra tarea en crontab que ejecuta entradasNahuel.py 
+para generar este archivo se crea una tarea con crontab que ejecuta dicho scriptr luego ![telegrammsg](https://user-images.githubusercontent.com/37049113/212178772-26957af1-fa05-413c-baa1-ce902a6412ea.jpeg)
+se realiza otra tarea en crontab que ejecuta entradasNahuel.py 
 Este archivo busca en el txt un numero de legajo especifico y su ultimo ingreso una vez que tiene esos datos le suma 7 horas al horario de entrada y le envia el msg por telegram al usuario.
 
+El mensaje que se envia es asi:
+
+Buenos dias Nahuel hoy 11/01/2023 llegastes a las: 15:24 hs. La jornada laboral concluye a las: 22:24Hs.
+
 Solo funciona con un usuario ya que lo realice para mi pero se podria generar para n usuarios.
+
+![telegrammsg](https://user-images.githubusercontent.com/37049113/212178817-d73721c4-06e6-49a0-b0b8-532effd24228.jpeg)
