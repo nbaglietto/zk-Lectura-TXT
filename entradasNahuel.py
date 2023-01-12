@@ -15,16 +15,16 @@ for linea in lector:
     if re.search('^1229:.+:.+:.+:.+:6666', linea):
         cadena = linea
         separador = ":"
-separado_por_espacios = cadena.split(separador)
+datos = cadena.split(separador)
 
 HORAS_DE_TRABAJO= 700
-legajo = separado_por_espacios [0]
-dia = separado_por_espacios [1]
-mes = separado_por_espacios [2]
-ano = separado_por_espacios [3]
-horas = separado_por_espacios [4]
-minutos = separado_por_espacios [5]
-reloj_entrada = separado_por_espacios [7]
+legajo = datos [0]
+dia = datos [1]
+mes = datos [2]
+ano = datos [3]
+horas = datos [4]
+minutos = datos [5]
+reloj_entrada = datos [7]
 hora = int(horas)
 minuto = int(minutos)
 entre = (horas)+':'+(minutos)
